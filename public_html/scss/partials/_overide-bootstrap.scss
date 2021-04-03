@@ -5,6 +5,7 @@ html{
 
 $font-size-base: 1.6rem;
 
+
 $spacer: 1rem;
 $spacers: (
 0: 0,
@@ -18,4 +19,35 @@ $spacers: (
 8: $spacer *4,
 9: $spacer *4.5,
 10: $spacer *5 // 50px
-) 
+); 
+
+$black: #1E1E1E;
+$pink: #ECD9D9;
+$blue: #11284B;
+$light: #F5F5F5;
+$red: #D54857;
+
+
+$grid-breakpoints: (
+xs: 0,
+//xm:480px,
+sm: 576px,
+md: 768px,
+lg: 992px,
+xl: 1200px,
+//xxl: 1400px
+);
+$container-max-widths: (
+sm: 540px,
+md: 720px,
+lg: 960px,
+xl: 1140px,
+//xxl: 1320px
+);
+$grid-gutter-width: 1.2rem;
+
+$body-color: $black;
+
+$navbar-light-color:   $body-color;
+$navbar-light-hover-color:  #D0B6B6;
+$navbar-light-active-color:    #D0B6B6;     
