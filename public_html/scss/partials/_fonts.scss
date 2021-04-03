@@ -1,0 +1,20 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+/*font-family: 'Lato', sans-serif;
+regular - 400; light: - 300*/
+
+
+@font-face {
+    font-family: 'Bodoni';
+    src: url('fonts/Bodoni/Bodoni-Book.eot');
+    src: 
+        local('Bodoni')
+        url('fonts/Bodoni/Bodoni-Book.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Bodoni/Bodoni-Book.woff2') format('woff2'),
+        url('fonts/Bodoni/Bodoni-Book.woff') format('woff'),
+        url('fonts/Bodoni/Bodoni-Book.ttf') format('truetype'),
+        url('fonts/Bodoni/Bodoni-Book.svg#Bodoni-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
