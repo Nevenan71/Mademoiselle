@@ -1,0 +1,40 @@
+/*
+    Created on : Apr 4, 2021, 9:37:36 PM
+    Author     : Nevena
+*/
+
+.blog-section{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    @media(min-width: 576px){
+        padding-top: 7.5rem;
+    padding-bottom: 5.6rem;
+    }
+    .blog-content{
+        padding-top: 2.2rem;
+        padding-bottom: 5.7rem;
+        margin-top: -8rem;
+        margin-left: 2.7rem;
+        margin-right: 2.7rem;
+        position: relative;
+        background-color: white;
+        z-index: 1;
+        .blog-date {
+            margin-bottom: 1.7rem;
+            font-size: 1.4rem;
+            line-height: 1.7rem;
+            letter-spacing: 1px;
+            font-family: $bodoni;
+        }
+        .blog-content-title{
+            line-height: 2.4rem;
+            height: 4.8rem;
+            overflow: hidden;
+            padding-left: 1.9rem;
+            padding-right: 1.8rem;
+            font-size: 1.6rem;
+        }
+    }
+        
+    
+}
