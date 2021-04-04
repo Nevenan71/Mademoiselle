@@ -13,3 +13,15 @@ a{
     text-decoration: none;
 }
 
+body{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding-top: 7.9rem;
+    @media(min-width:576px){
+        padding-top: 8.7rem;
+    }
+}
+
+h1, h2{
+    font-family: $big-heading-font;
+}

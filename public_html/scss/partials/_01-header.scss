@@ -53,8 +53,13 @@ header{
                     line-height: 1.7rem;
                     letter-spacing: 1px;
                     padding: 10px;
+                    color: $body-color !important;
+                    &:hover{
+                        border-bottom: 1px solid $pink;
+                        transition: 0.2s linear;
+                    }
                 }
-            }
+            } 
         } // navbar-nav
     }
 }
