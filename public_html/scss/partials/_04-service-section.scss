@@ -3,26 +3,32 @@
     Author     : Nevena
 */
 
-.services-item{
-   padding: 30px 0;
-   @media(min-width: 768px){
-    padding: 0;
-    }
-   
- 
-    h5{
-        font-size: 2.5rem;
-         @media(min-width: 992px){
-            font-size: 3.6rem;
-         }
-        line-height: 4.4rem;
-        margin-bottom: 3.6rem;
-    }
-    .services-button{
-        border: 1px solid $black;
-        padding: 13px 36px 15px;
-        font-size: 1.4rem;
-        line-height: 1.7rem;
-        letter-spacing: 0.5px;
+.services{
+   margin-bottom: 7rem;
+    @media(min-width: 768px){
+            margin-bottom: 11.1rem;
+        }
+        .services-item{
+        padding: 30px 0;
+        @media(min-width: 768px){
+            padding: 0;
+        }
+
+
+        h5{
+            font-size: 2.5rem;
+            @media(min-width: 992px){
+                font-size: 3.6rem;
+            }
+            line-height: 4.4rem;
+            margin-bottom: 3.6rem;
+        }
+        .services-button{
+            border: 1px solid $black;
+            padding: 13px 36px 15px;
+            font-size: 1.4rem;
+            line-height: 1.7rem;
+            letter-spacing: 0.5px;
+        }
     }
 }

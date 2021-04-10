@@ -70,8 +70,12 @@ if ($('.contact-form').length > 0) {
         });
     }//Form Validation end
 
-
-    
+ if ($('.owl-carousel').length > 0){
+    $(".owl-carousel").owlCarousel({
+        items:1
+    }
+            );
+ } 
     
     
     

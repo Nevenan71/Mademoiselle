@@ -1,0 +1,57 @@
+/*
+    Created on : Apr 10, 2021, 12:02:48 PM
+    Author     : Nevena
+*/
+
+.professionals{
+    margin-bottom: 3rem;
+    @media(min-width: 768px){
+        margin-bottom: 6.7rem;
+    }
+    .professionals-item{
+        padding-bottom: 3rem;
+        border: 1px solid $pink;
+        @media(min-width: 768px){
+            padding: 5.4rem 0;
+        }
+        .professionals-item-content{
+            h4{
+                font-size: 3rem;
+                line-height: 2.7rem;
+            }
+            p{
+            line-height: 2.3rem;
+            font-family: $lato;
+            font-weight: 300;
+            }
+            
+        }
+    }
+}
+
+.owl-theme .owl-dots {
+  text-align: center;
+  position: relative;
+  bottom: 4rem;
+@media(min-width: 1200px){
+      bottom: 7.8rem;     
+  }
+  -webkit-tap-highlight-color: transparent; }
+  .owl-theme .owl-dots .owl-dot {
+    display: inline-block;
+    zoom: 1;
+ 
+    *display: inline; }
+.owl-theme .owl-dots .owl-dot span {
+      width: 8px;
+      height: 8px;
+      margin: 5px 9px;
+      background: rgba($pink, 0.34);
+      display: block;
+      -webkit-backface-visibility: visible;
+      transition: opacity 200ms ease;
+      border-radius: 30px; 
+
+}
+    .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+      background: $pink; }

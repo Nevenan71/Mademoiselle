@@ -1,0 +1,25 @@
+/*
+    Created on : Apr 10, 2021, 11:59:16 PM
+    Author     : Nevena
+*/
+
+footer{
+    padding-top: 35px;
+    padding-bottom: 25px;
+    .social{
+        .fab{
+            color: $pink;
+            font-size: 2rem;
+            padding-left: 3.2rem;
+            &:first-of-type{
+                padding-left: 0;
+            }
+        }
+    }
+    p {
+        font-size: 1.2rem;
+        line-height: 4.1rem;
+        letter-spacing: -0.17px;
+        margin-bottom: 0;
+    }
+}
