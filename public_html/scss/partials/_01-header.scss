@@ -8,10 +8,12 @@ $navbar-bg: $white;
 header{
     position: fixed;
     z-index: 5;
+    
 
     .navbar{
         background-color: $navbar-bg;
         padding: 25px 0;
+        border-bottom: 0.5px solid $gray-100;
         .navbar-brand{
             max-width: 196px !important;
         } // navbar
