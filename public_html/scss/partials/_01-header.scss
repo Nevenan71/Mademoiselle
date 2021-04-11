@@ -57,7 +57,7 @@ header{
                     letter-spacing: 1px;
                     padding: 10px;
                     color: $body-color !important;
-                    &:hover{
+                    &:hover, &.active{
                         border-bottom: 1px solid $pink;
                         transition: 0.2s linear;
                     }
