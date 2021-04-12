@@ -24,5 +24,110 @@
         }
     }
 }
+.single-blog{
+    padding-top: 5rem;
+    padding-bottom: 7rem;
+    @media(min-width: 768px){
+        padding-top: 10rem;
+        padding-bottom: 10rem;
+    }
+    @media(min-width: 992px){
+        padding-top: 12rem;
+        padding-bottom: 15rem;
+    }
+    @media(min-width: 1200px){
+        padding-top: 16.5rem;
+        padding-bottom: 27rem;
+    }
+    .single-blog-tag-elements{
+        font-family: $bodoni;
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+        letter-spacing: 1px; 
+        margin-bottom: 2rem;
+        .single-blog-tag{
+            padding-right: 10px;
+            border-right: 1px solid $black;
+        }
+        .single-blog-date{
+            padding-left: 14px;
+        }
+    }
+    .single-blog-heading{
+        margin-bottom: 2.5rem;
+        @media(min-width: 768px){
+            margin-bottom: 5rem;
+        }
+        @media(min-width: 992px){
+            margin-bottom: 7rem;
+        }
+        @media(min-width: 1200px){
+            margin-bottom: 9.7rem;
+        }
+        h4{
+            text-transform: uppercase;
+            font-size: 4.4rem;
+            line-height: 5rem;
+            margin-bottom: 2.6rem;
+        }
+        h6{
+            font-weight: 300;
+            font-size: 2rem;
+            line-height: 2.8rem;
+        }
+            }
+    .single-blog-content{
+        font-family: $lato;
+        font-weight: 300;
+        font-size: 1.8rem;
+        line-height: 2.6rem;
+        text-align: justify;
+        max-width: 80%;
+        @media(min-width: 768px){
+            max-width: 66.666%;
+        }
+        margin-left: auto;
+        margin-right: auto;
+        & > p{
+            margin-bottom: 3rem;
+        }
+        figure{
+            margin-bottom: 5.2rem;
+            margin-top:5.2rem;
+        }
+        & p:last-of-type{
+            margin-bottom: 4.5rem; 
+        }     
+    }
+    .single-blog-tags{
+        max-width: 80%;
+        @media(min-width: 768px){
+            max-width: 66.666%;
+        }
+        margin-left: auto;
+        margin-right: auto;   
+        h6{
+            font-family: $bodoni;
+            line-height: 2.7rem;
+            font-weight: 400;
+        }
+        a{
+            display:block;
+            border: 0.5px solid $gray-100;
+            @media(min-width: 576px){
+                display: inline-block;
+                border: none;
+            }
+            font-family: $bodoni;
+            line-height: 2.7rem;
+            font-size: 1.6rem;
+            padding: 0;
+            width: 104px;
+            margin-right: 10px;
+        }
+    }
+}
+
+
 
 
