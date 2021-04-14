@@ -15,7 +15,7 @@
 
 .services{
     margin-bottom: 3.7rem;
-    
+
     .services-item:nth-of-type(even){
         .col-12:nth-of-type(2n){
             background-color: $pink !important;
@@ -63,4 +63,27 @@
         line-height: 1.7rem;
         letter-spacing: 0.5px;
     }
+}
+
+.single-service{
+    margin-bottom: 8rem;
+    .single-service-section{
+        margin-top: 17rem;
+        margin-bottom: 13rem;
+        .single-service-content{
+            h4{
+                font-size: 4.4rem;
+                line-height: 5rem;
+                text-transform: uppercase;
+                margin-bottom: 2.5rem;
+                padding-bottom: 2rem;
+            }
+            p{
+                font-weight: 300;
+                font-size: 1.8rem;
+                line-height: 2.6rem;
+                font-family: $lato;
+            }
+        }
+    } 
 }
