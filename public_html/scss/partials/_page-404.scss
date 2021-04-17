@@ -3,12 +3,14 @@
     Author     : Nevena
 */
  
-.hero-section.fourofour{
+/*.hero-section.fourofour{
     padding-top: 27.7rem;
     padding-bottom: 27.8rem;
     background-size: auto 100%;
     background-position: center center;
     background-repeat: no-repeat;
-}
+}*/
 
- 
+.hero-section.fourofour{
+ @include heroStyle(28.3rem, 28.4rem);
+}

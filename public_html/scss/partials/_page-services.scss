@@ -5,11 +5,7 @@
 */
 
 .hero-section.hero-services{
-    padding-top: 28.3rem;
-    padding-bottom: 28.4rem;
-    background-size: auto 100%;
-    background-position: center center;
-    background-repeat: no-repeat;
+ @include heroStyle(28.3rem, 28.4rem);
     margin-bottom: 8.8rem;
 }
 
@@ -68,8 +64,17 @@
 .single-service{
     margin-bottom: 8rem;
     .single-service-section{
-        margin-top: 17rem;
-        margin-bottom: 13rem;
+        margin-top: 7rem;
+        @media(min-width:768px){
+            margin-top: 10rem;
+             margin-bottom: 3rem;
+        }
+        @media(min-width:1200px){
+            margin-top: 17rem;
+            margin-bottom: 13rem;
+        }
+       
+        
         .single-service-content{
             h4{
                 font-size: 4.4rem;

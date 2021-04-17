@@ -24,7 +24,7 @@ $(document).ready(function(){
 
 
 // FORM VALIDATION start
-if ($('.contact-form').length > 0) {
+ if ($('.contact-form').length > 0) {
         $(function () {
             $(".contact-form").validate({
                 highlight: function (element) {
@@ -43,38 +43,47 @@ if ($('.contact-form').length > 0) {
                         required: true,
                         email: true
                     },
-                    message:{
+                    subject: {
+                        required: true
+                    },
+                    message: {
                         required: true,
-                        maxlength: 255                      
+                        maxlength: 255
+
                     }
                 },
                 messages: {
-                   name: {
+                    name: {
                         required: 'Name* is required field!!!'
                     },
                     email: {
                         required: 'Email* is required field!!!',
                         email: 'Please insert valid Email address!!!'
                     },
-                    message:{
+                    subject: {
+                        required: 'Subject* is required field!!!'
+                    },
+                    message: {
                         required: 'Message* is required field!!!',
                         maxlength: 'Max Message length is 255 characters !!!'
-                       
+
                     }
+
                 },
                 errorElement: 'p',
                 errorPlacement: function (error, element) {
                     error.appendTo($(element).closest('.form-group').find('.invalid-feedback'));
                 }
+
             });
         });
     }//Form Validation end
 
+
  if ($('.owl-carousel').length > 0){
     $(".owl-carousel").owlCarousel({
         items:1
-    }
-            );
+    } );
  } 
     
    

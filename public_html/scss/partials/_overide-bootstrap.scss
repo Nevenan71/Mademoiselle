@@ -18,7 +18,8 @@ $spacers: (
 7: $spacer *3.5,
 8: $spacer *4,
 9: $spacer *4.5,
-10: $spacer *5 // 50px
+10: $spacer *5, // 50px
+15: $spacer *15
 ); 
 
 $black: #1E1E1E;
@@ -35,14 +36,16 @@ sm: 576px,
 md: 768px,
 lg: 992px,
 xl: 1200px,
-//xxl: 1400px
+xxl: 1400px,
+xxxl: 1600px
 );
 $container-max-widths: (
 sm: 540px,
 md: 720px,
 lg: 960px,
 xl: 1140px,
-//xxl: 1320px
+xxl: 1320px,
+xxxl: 1300px
 );
 $grid-gutter-width: 1.2rem;
 
@@ -51,3 +54,5 @@ $body-color: $black;
 $navbar-light-color:   $body-color;
 $navbar-light-hover-color:  #D0B6B6;
 $navbar-light-active-color:    #D0B6B6;     
+
+$input-bg: rgba(#253D61, 0.02);

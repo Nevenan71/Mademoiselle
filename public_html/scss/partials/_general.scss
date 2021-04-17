@@ -2,6 +2,7 @@
 $body-font: $lato; 
 $big-heading-font: $bodoni;
 $small-heading-font: $lato;
+$body-color: $black;
 
 
 
@@ -19,6 +20,7 @@ body{
     padding-top: 7.2rem;
     @media(min-width:576px){
         padding-top: 8rem;
+        font-family: $body-font;
     }
 }
 
